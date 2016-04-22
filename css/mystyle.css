@@ -1,0 +1,244 @@
+html{
+	height: 100vh;
+
+}
+.container{
+	color:rgb(64, 64, 64);
+}
+
+a{
+	text-align: center;
+	text-decoration:underline;
+  color:rgb(61, 61, 61);
+}
+
+.u-full-width{
+}
+
+h1
+{
+	text-align:center;
+	font-size: 3em;
+	margin-top: 1em;
+	margin-bottom:1em;
+	font-family: 'Oswald', sans-serif;
+		font-weight:400;
+}
+h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight:400;
+	margin-top: 20%;
+}
+.copyright{
+	text-align: center;
+}
+
+footer{
+	position: relative;
+	bottom: 0%;
+	padding: 1%;
+}
+
+.socialmedia{
+	padding:1%;
+}
+
+.project{
+	border-radius: 10%;
+	padding: 3%;
+}
+
+.projectfigure{
+	border-radius: 50%;
+}
+a.resume{
+	font-weight: bold;
+	margin:0 auto;
+}
+#dowload{
+	float:right;
+}
+#tresume{
+	font-size: 2rem;
+	text-align: center;
+}
+#QOC:hover{
+	width: 60%;
+}
+.projectfigure img:hover{
+	opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.website a{
+	text-align: center;
+}
+#sketch:hover{
+	width:100%;
+}
+#myphoto{
+
+	margin-left: 22%;
+	width: 56%;
+	border-radius: 50%;
+}
+#self_intro{
+	margin-top:5%;
+}
+#prob_photo {
+/*box-shadow: 3px 3px 2px grey;*/
+margin-bottom: 5%;
+}
+#quote{
+	margin: 10em auto;
+}
+#quote_content{
+
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 1.5em;
+}
+a{
+	text-decoration: none;
+}
+ul.ux_methods{
+	list-style: none;
+	color: rgb(102, 102, 102);
+}
+p.ux_methods{
+	text-align: center;
+	color: rgb(117, 200, 190);
+	font-family: 'Oswald', sans-serif;
+}
+
+p.project_description{
+	text-align: center;
+	color: rgb(106, 106, 106);
+	font-weight: 300;
+}
+
+li.insight{
+	list-style: none;
+	font-weight: bolder;
+}
+.test_figure{
+	margin-bottom: 5%;
+}
+
+#test1{
+	margin-top:15%;
+	font-weight: bolder;
+}
+#concepttest1{
+	font-weight: bolder;
+}
+#test3{
+	/*margin-top:15%;*/
+font-weight: bolder;}
+
+@media (min-width: 400px) {
+	.socialmedia{
+		width: 10%;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .callbacks_nav {
+    top: 47%;
+    }
+  }
+/*body{
+	margin: 1%;
+	padding:1%;
+  background-image: url("../img/colorbar.jpg");
+  background-size: auto 100%;
+	font-size: 100%;
+	font-family: "Lucida Console";
+	height: 100vh;
+}
+
+header h1{
+	font-size: 2em;
+	color:rgba(255, 255, 255, 1);;
+}
+
+nav a{
+	display:block;
+	background-color: rgba(255, 255, 255, .64);
+	border: 0px solid black;
+  width:25%;
+	text-align: center;
+	text-decoration: none;
+  color:rgb(61, 61, 61);
+	padding: 10% 2% 10% 2%;
+	margin: 2% auto 2% auto;
+}
+
+#iaboutme:hover{
+	background-image: url("../img/aboutme.jpg");
+	background-size:100%;
+	color:white;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+#imywork:hover{
+	background-image: url("../img/work.jpg");
+	background-size:100%;
+	color:white;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+#iresume:hover{
+	background-image: url("../img/resume.jpg");
+	background-size:100%;
+	color:white;
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+h1{
+	text-align: center;
+	color:rgba(255,0,0,.7);;
+}
+
+footer{
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	height: 4%;
+	padding: 1%;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+	font-size:1em;
+}
+
+footer a .socialmedia{
+	float:right;
+	margin: 0.5%;
+	height: 1.5em;
+}
+
+@media screen and (min-width:800px)
+{
+header h1{
+	font-size: 3em;
+}
+nav a{
+	display: inline-block;
+	padding: 5% 0% 5% 0%;
+	margin-top: 10%;
+	margin-left: 3%;
+}
+
+footer a{
+	text-align: center;
+	color:black;
+}*/
