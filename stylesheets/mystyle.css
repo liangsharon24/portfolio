@@ -131,3 +131,16 @@ img.sspic{
 .opacity{
   opacity: 0.8;
 }
+div.quote{
+  padding-left: 10px;
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: rgb(179, 130, 158);
+}
+
+li,p.emphasis{
+  font-weight: bold;
+}
+span.color{
+  color:rgb(179, 130, 158);
+}
