@@ -201,3 +201,8 @@ h3.first, h2.first, h1.first{
   width:15%;
   margin-bottom: 2em;
 }
+
+.index-self-intro {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

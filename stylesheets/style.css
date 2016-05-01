@@ -596,7 +596,8 @@ section {
   section.jumbotron {
     max-width: 100%;
 
-    height:100%;
+    /* @SY: override */
+    height:381px;
     margin: 0;
     padding: 0;
     position: relative;
