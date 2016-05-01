@@ -185,3 +185,19 @@ h1{
   margin-bottom: 1em;
   margin-top: 4em;
 }
+
+h3.first, h2.first, h1.first{
+  margin-top: 0;
+}
+
+#reef_wireframe{
+  margin-bottom: 4em;
+}
+
+#reef{
+  border-style: none;
+  height: 4px;
+  background-color: rgba(90, 198, 208, 0.79);
+  width:15%;
+  margin-bottom: 2em;
+}
