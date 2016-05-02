@@ -19,7 +19,9 @@ img.center{
 img.space{
   margin-top: 4em;
 }
-
+img.poster{
+  margin:4em  auto;
+}
 iframe.center{
   display: block;
   margin: 0 auto;
