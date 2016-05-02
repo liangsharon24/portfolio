@@ -27,6 +27,8 @@
   ga('send', 'pageview');
 
 </script>
+
+
   <!-- HTML5 fallbacks -->
   <!--[if lt IE 9]>
   <script src="javascripts/html5shiv.js" type="text/javascript"></script>
@@ -79,19 +81,21 @@
             <h4>Project Overview</h4>
             <p>An individual project aims to make grocery shopping more convenient for students. This project contains a thorough process of interaction design, from need finding to prototype designing.</p>
           </div>
-          <div class='col-md-2 col-md-offset-1'>
+          <div class='vline col-md-3'>
             <h4>Time</h4>
             <p>Sept. - Dec. 2015</p>
             <h4>Role</h4>
-            <p>UX designer <br>UX researcher <br>Project Manager</p>
+            <p>UX Designer <br>UX Researcher <br>Project Manager</p>
           </div>
-          <div class='col-md-2'>
-            <h4>Tools</h4>
-            <p>Axure <br>Photoshop <br>Illustrator</p>
+          <div class="col-md-4">
+            <h4>Skills</h4>
+          <div class='col-md-6'>
+            <p><span class="emphasis">Software</span>
+            <br>Axure <br>Photoshop <br>Illustrator<br><span class="emphasis">UX Method</span><br>Competitive Analysis </p>
           </div>
-          <div class='col-md-2'>
-            <h4>UX Method</h4>
-            <p>Competitive analysis <br>Personas <br>Sketching <br>QOC analysis <br>Paper prototyping <br>Digital Prototyping</p>
+          <div class='col-md-6'>
+            <p>
+            Personas<br>Sketching <br>QOC Analysis <br>Paper Prototyping <br>Digital Prototyping</p>
           </div>
         </div>
 
@@ -121,85 +125,87 @@
 
         </div>
 
+      </div>
+    </section>
+
         <!-- Need finding -->
+        <section>
+          <div class='block'>
+
         <div class='block'>
           <div class='row'>
             <div class='col-md-12'>
               <h1 class="text-center">Step 1. Need Finding</h1>
+              <hr class="cargo">
             </div>
           </div>
 
           <div class='row'>
-            <div class='col-md-4'>
-              <h3 class="first">Interview</h3>
+            <div class='col-md-12'>
+              <h3 class="text-center">Interview</h3>
               <p>From 6 interviews, I identified grocery shopping as one of the primary challenges for students who did not have a car and lived far away from a grocery store.</p>
             </div>
-            <div class='col-md-4'>
-              <img class="fadeIn center spic opacity" src="img/car.png" />
-              <h4 class='text-center'>Transportation</h4>
-              <p class='text-center'>Taking public transportation to a grocery store can be time-consuming.</p>
-            </div>
-            <div class='col-md-4'>
-              <img class="fadeIn center spic opacity" src="img/grocery.png" />
-              <h4 class='text-center'>Groceries Weight</h4>
-              <p class="text-center">Without a car, you can only take limited bags in your grocery shopping trip.</p>
+            <div class='col-md-12'>
+                <img class="fadeIn" src="img/cargo_need.jpg">
             </div>
           </div>
-        </div>
+
 
 
         <!-- Analysis -->
-        <div class='block'>
+
           <div class='row'>
             <div class='col-md-12'>
               <h1 class="text-center">Step 2. Analysis</h1>
+                <hr class="cargo">
             </div>
           </div>
 
           <div class='row'>
             <div class='col-md-12'>
-              <h3>Persona</h3>
-              <p>Based on the interviews, I made 4 personas including 3 user personas and 1 non-user persona. Personas helped me think through the motivations, needs, and frustrations that might be experienced by potential users.</p>
+              <h3 class="text-center">Persona</h3>
+              <p>Based on the interviews, I created personas to help me think through the motivations, needs, and frustrations that might be experienced by potential users.</p>
             </div>
           </div>
 
+
           <div class="row">
-            <img class="col-md-6" src="img/persona_01.jpg" alt="">
-            <img class="col-md-6" src="img/persona_02.jpg" alt="">
+            <img class="col-md-8 col-md-offset-2" id="viewer" src="img/persona_01.jpg" alt="persona 01">
           </div>
-          <div class="row">
-            <img class="col-md-6" src="img/persona_03.jpg" alt="">
-            <img class="col-md-6" src="img/persona_04.jpg" alt="">
+          <div class="col-md-8 col-md-offset-2" id="individual">
+            <img class="slidermenu" src="img/persona_01.jpg" alt="persona 01" onclick="onHoverphoto(this)">
+            <img class="slidermenu" src="img/persona_02.jpg" alt="persona 02" onclick="onHoverphoto(this)">
+            <img class="slidermenu" src="img/persona_03.jpg" alt="persona 03" onclick="onHoverphoto(this)">
           </div>
 
           <div class='row'>
             <div class='col-md-12'>
-              <h3>Comparative Analysis</h3>
+              <h3 class="text-center">Comparative Analysis</h3>
               <p>I compared 3 kinds of services to identify the possible solution to my problem statement, trying to discover the niche attributable to my new solution.</p>
             </div>
             <div class='text-center'>
-              <img alt="competitive analysis" src="img/competitive.png">
+              <img alt="competitive analysis" src="img/cargo_comparative.png">
             </div>
           </div>
 
           <div class='row'>
             <div class='col-md-12'>
-              <h3>Core Value</h3>
+              <h3 class="text-center">Core Value</h3>
               <p>Information derived from interview, personas, and comparative analysis allowed met to defined three core values of grocery shopping as follows:</p>
             </div>
             <div class='text-center col-md-4'>
               <img class='spic opacity' alt='Price' src="img/money.png">
-              <h4>Price</h4>
+              <h5 class="cargo">Price</h5>
               <p>Because most of the potential users are international students, a service with reasonable price would be a primary concern.</p>
             </div>
             <div class='text-center col-md-4'>
               <img class='spic opacity' alt='Efficiency' src="img/time.png">
-              <h4>Efficiency</h4>
+              <h5 class="cargo">Efficiency</h5>
               <p>Users seek a solution that can save their time in transportation.</p>
             </div>
             <div class='text-center col-md-4'>
               <img class='spic opacity' alt='Experience' src="img/eye.png">
-              <h4>Experience</h4>
+              <h5 class="cargo">Experience</h5>
               <p>Users still enjoy the experiences of grocery shopping.</p>
             </div>
           </div>
@@ -212,21 +218,22 @@
           <div class='row'>
             <div class='col-md-12'>
               <h1 class="text-center">Step 3. Ideation</h1>
+                <hr class="cargo">
             </div>
           </div>
 
           <div class="row">
-            <div class='col-md-6'>
+            <div class='col-md-12'>
               <p>Based on what I have found in previous steps, I sketched 10 different solutions. Later, I presented these sketches to my potential users to solicit their feedback.</p>
-              <h4>Insights from Potential Users</h4>
+              <h3>Insights from Potential Users</p>
               <ul>
                 <li>The problem with transportation is more prominent than the problem of groceries weight.</li>
                 <li>People enjoy the process of grocery shopping instead of ordering things online.</li>
               </ul>
-              <h4>Final Decision of the Solution</h4>
-              <p>Among the 10 solutions I proposed, the idea of sharing a car is favored by most potential users</p>
+              <h3>Final Decision of the Solution</p>
+              <p>Among the 10 solutions I proposed, the idea of sharing a car was favored by most potential users</p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
               <img alt="sketching solution" src="img/sketch_f.png">
             </div>
           </div>
@@ -239,13 +246,14 @@
           <div class='row'>
             <div class='col-md-12'>
               <h1 class="text-center">Step 4. Defining Design Dimensions</h1>
+                <hr class="cargo">
             </div>
           </div>
 
           <div class='row'>
             <div class='col-md-6'>
-              <h3>QOC</h3>
-              <p>After deciding the final solution, the next step was defining the key functions of the solution. I used QOC method to specify the details of each key function.</p>
+              <h3 class="text-center">Functional Specification</h3>
+              <p>After deciding the final solution, the next step was defining the detailed functions of the solution. I used a paradgim called Question-Option-Criteria to specify the details of each key function.</p>
               <ul>
                 <li>Users have to log in before using the system.</li>
                 <li>Information will be presented with a list and a map.</li>
@@ -268,43 +276,44 @@
   <div class='row'>
     <div class='col-md-12'>
       <h1 class="text-center">Step 5. Prototype</h1>
-    </div>
-  </div>
-
-  <div class='row'>
-    <div class='col-md-6'>
-      <h3>Paper Prototype</h3>
-      <p>The prototype of shared car service was built by paper first.</p>
-      <h4>Discovery</h4>
-      <p>Sources of confusion were found in testing:</p>
-      <ul>
-        <li>Users were confused about the differences between functions for a driver and for a passenger.</li>
-        <li>Some of the buttons cannot clearly link to their functions.</li>
-      </ul>
-      <h4>Reflection</h4>
-      <p>The major problem of a paper prototype testing was that users tended to experience less frustration as long as every step they took led to a response. This makes it harder for user to discover the problems of interaction.</p>
-      </div>
-      <div class="col-md-6">
-        <h3><br></h3>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/LGsY2xT24tE" frameborder="0" allowfullscreen></iframe>
+        <hr class="cargo">
     </div>
   </div>
 
   <div class='row'>
     <div class='col-md-12'>
-      <h3>Mid-fi Prototype/Interaction Map</h3>
+      <h3 class="text-center">Paper Prototype</h3>
+      <p>Paper prototype is a good way to retrieve users' feedbacks before investing a considerable amount of time in building the digital prototyping.I built a paper prototype to test the interaction flow of finding a car for shopping  and providing a car.</p>
+      <h5 class="text-center cargo">Discovery</h5>
+      <p>Sources of confusion were found in testing:
+      <ul>
+        <li>Users were confused about the differences between functions for a driver and for a passenger.</li>
+        <li>Some of the buttons cannot clearly link to their functions.</li>
+      </ul></p>
+      <h4>Reflection</h4>
+      <p>The major problem of a paper prototype testing was that users tended to experience less frustration as long as every step they took led to a response. This makes it harder for user to discover the problems of interaction.</p>
+      </div>
+      <div class="col-md-12">
+        <h3><br></h3>
+      <iframe width="500" height="315" src="https://www.youtube.com/embed/LGsY2xT24tE" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='col-md-12'>
+      <h3 class="text-center">Mid-fi Prototype/Interaction Map</h3>
       <p>Building an interaction map helped me visaulize the steps of interaction. I also built a digital mid-fi prototype and tested it with my users.</p>
       <img class="container-fluid" alt="interaction map" src="img/interaction_map_cargo.png">
     </div>
   </div>
 
   <div class='row'>
-    <h3 class="col-md-12">Digital Prototype and Reflection</h3>
-    <div class="col-md-4">
-    <iframe class="demo" style="box-shadow:2px 2px 5px grey;" width="420" height="660" frameBorder="0" src="http://www-personal.umich.edu/~plantain/cargo/homepage.html"></iframe>
-  </div>
+    <h3 class="text-center col-md-12">Digital Prototype and Reflection</h3>
+    <!-- <div class="col-md-4"> -->
+    <!-- <iframe class="demo" style="box-shadow:2px 2px 5px grey;" width="400" height="660" frameBorder="0" src="http://www-personal.umich.edu/~plantain/cargo/homepage.html"></iframe> -->
+  <!-- </div> -->
     <!-- <iframe class="col-md-5 demo shadow" style="box-shadow:2px 2px 5px grey;" width="420" height="660" frameBorder="0" src="http://www-personal.umich.edu/~plantain/cargo/homepage.html"></iframe> -->
-    <div class='col-md-7 col-md-offset-1'>
+    <div class='col-md-12'>
       <p>In my final digital prototype, I made the interfaces for drivers and passengers more distinct from each other. However, some users still reported confusion about the functions for drivers and users. Being too familiar with my design could be a potential blind spot, preventing me from identifying the core problem. I thought the linkage between figure icons and functions should be made clear and intuitive. Feedback from the first-time user directed me to re-examine every signifier in my design. For example, in my early prototype I placed the “map view” at the top right corner of the screen for user to switch from a list view to a map view. I found some people mistakenly considered the button as an indication of the current mode because of their experiences with other interfaces. I rearranged the location of the buttons accordingly. I also removed the function, which allowed drivers to manually add passengers into their car. As suggested by Users’ feedback, drivers preferred a system which automatically imported passengers on its own.</p>
     </div>
   </div>
@@ -386,6 +395,17 @@
       </section>
     </footer>
   </div>
+
+ <script>
+ function onHoverphoto(element){
+   // var currentPhoto= element.src;
+   var currentPhoto=element.src;
+   document.getElementById("viewer").innerHTML="";
+   document.getElementById("viewer").src=currentPhoto;
+
+
+ }
+ </script>
   <script src="javascripts/jquery.min.js" type="text/javascript"></script>
   <script src="javascripts/jquery.easing.1.3.js" type="text/javascript"></script>
   <script src="javascripts/jquery.mobile.custom.min.js" type="text/javascript"></script>

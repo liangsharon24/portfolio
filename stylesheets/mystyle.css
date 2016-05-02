@@ -157,6 +157,10 @@ hr{
   width:15%;
 }
 
+hr.cargo{
+  background-color: rgb(255, 200, 36);
+}
+
 #rq{
   font-size: 2em;
   color: rgb(191, 119, 10);
@@ -165,7 +169,7 @@ hr{
 
 h3{
   font-weight: bold;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-bottom: 2em;
 }
 
@@ -183,7 +187,7 @@ div.vline{
 }
 
 h1{
-  margin-bottom: 1em;
+  margin-bottom: 0;
   margin-top: 4em;
 }
 
@@ -211,4 +215,17 @@ h3.first, h2.first, h1.first{
 h2 {
   margin-bottom: 30px;
 
+}
+
+img.slidermenu{
+  width:50px;
+  margin:3% 6% 3% 0;
+
+}
+#idividual{
+  margin: auto 0;
+}
+h5.cargo{
+  font-weight: bold;
+  font-size: 1.2em;
 }
