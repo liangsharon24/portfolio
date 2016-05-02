@@ -15,6 +15,16 @@ img.center{
   display: block;
   margin: 0 auto;
 }
+
+img.space{
+  margin-top: 4em;
+}
+
+iframe.center{
+  display: block;
+  margin: 0 auto;
+}
+
 .videoWrapper {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
@@ -51,6 +61,17 @@ li {
   /*margin: 10px 0 30px 0;*/
 }
 
+li.cargo {
+  font-size: 1em;
+  line-height: 1.6em;
+  font-family: "Inconsolata", sans-serif;
+  color: #636161;
+  /*margin: 10px 0 30px 0;*/
+}
+ul.cargo{
+
+  padding-left: 2%;
+}
 
 .row{
   /* SL: override */
