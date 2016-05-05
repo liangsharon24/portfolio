@@ -151,6 +151,9 @@ img.spic{
 img.sspic{
   width: 10%;
 }
+img.half{
+  width: 50%;
+}
 
 .opacity{
   opacity: 0.8;
@@ -164,16 +167,15 @@ div.quote{
 
 span.emphasis, p.emphasis{
   font-weight: bold;
-  color: rgb(241, 138, 124);
+  color: black;
 }
 span.color{
   color:rgb(179, 130, 158);
 }
 
 span.superemphasis, p.superemphasis{
-  font-size: 1.5em;
   font-weight: bold;
-  color: rgb(241, 138, 124);
+  color: #EF3D5C;
 }
 
 hr{
